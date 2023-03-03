@@ -79,7 +79,7 @@ class App extends Component {
     return (
       <div className="container-fluid p-0">
         <NavBar />
-        <div className="d-flex flex-md-row flex-column bg-light px-3">
+        <div className="d-flex flex-lg-row flex-column bg-light vh-100 px-3">
           <div className="container-fluid mt-3">
             <PlayListForm newSong={this.state} handleSongArtist={this.handleSongArtistChange} handleSongTitle={this.handleSongTitleChange} handleUserName={this.handleUserNameChange} handleSongNotes={this.handleSongNotesChange} submit={this.handleSubmit} reset={this.handleReset}/>
           </div>

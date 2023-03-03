@@ -25,7 +25,7 @@ class PlayListForm extends Component {
               <label htmlFor="song-notes" className="form-label">Song Notes</label>
               <textarea className="form-control" id="song-notes" onChange={this.props.handleSongNotes} value={this.props.newSong.songNotes}></textarea>
             </div>
-            <div className="d-flex justify-content-center justify-content-md-start">
+            <div className="d-flex justify-content-center justify-content-lg-start">
               <button className="btn btn-primary" type="submit" onClick={this.props.submit}>Submit</button>
               <button className="btn btn-secondary mx-3" type="submit" onClick={this.props.reset}>Reset</button>
             </div>
